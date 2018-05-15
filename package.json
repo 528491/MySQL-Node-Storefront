@@ -1,0 +1,32 @@
+{
+  "name": "mysql-node-storefront",
+  "version": "1.0.0",
+  "description": "Command-line based application that allows a user to order items listed in a MySQL database",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "node bamazonCustomer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/528491/MySQL-Node-Storefront.git"
+  },
+  "keywords": [
+    "MySQL",
+    "Node",
+    "JS",
+    "Databases",
+    "CLI",
+    "Terminal"
+  ],
+  "author": "528491",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/528491/MySQL-Node-Storefront/issues"
+  },
+  "homepage": "https://github.com/528491/MySQL-Node-Storefront#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}

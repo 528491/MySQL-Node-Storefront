@@ -14,12 +14,12 @@ CREATE TABLE IF NOT EXISTS products (
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES
 ("Soap", "Fight Club", 5.00, 250),
-("Dish Towels", "Kitchen", 0.99, 100)
-("Laser Pointer", "Office", 20.00, 5000)
-("Late 2013 Macbook Pro", "Computers", 1500.00, 10)
-("Late 2013 Macbook Pro", "Computers", 1500.00, 10)
+("Dish Towels", "Kitchen", 0.99, 100),
+("Laser Pointer", "Office", 20.00, 5000),
+("Late 2013 Macbook Pro", "Computers", 1500.00, 10),
+("The Dark Knight Tilogy", "Movies", 1500.00, 10),
 ("2013 Mercedes Benz C-Class", "Automotive", 15000.00, 2),
-("2009 Lexus GX470", "Automotive", 22000.00, 100)
-("A4 Size Manilla Envelopes", "Office", 20.00, 5000)
-("Bankers Box", "Office", 15.00, 10)
+("2009 Lexus GX470", "Automotive", 22000.00, 100),
+("A4 Size Manilla Envelopes", "Office", 20.00, 5000),
+("Bankers Box", "Office", 15.00, 10),
 ("Uniball Vision Pro Elite Pens", "Office", 1500.00, 10);
