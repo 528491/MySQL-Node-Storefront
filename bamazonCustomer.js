@@ -56,11 +56,12 @@ function checkIfItemIsPresentInSufficientQuantitty(item_id, purchase_quantity){
     connection.end();
 }
 
-if (require.main == module){
-    //Run this code if this is the module being run. Keep this code from being run if the module is only being used 
+function mainUILoop(){
+    //TODO - use a for loop and recursion to implement the REPL loop functionality of the UI
+    var counter = 0; //Needed for synchronous execution when working with asynchronous functions
     var purchaseId; //Id of item the user wishes to purchase
     var purchaseQuantity; //Quantity of items the user wishes to purchase
-    
+
     displayItemsInDatabase(); //TODO - there is a delay between when this function finishes and when the prompt begins. I want to fix this.
     //TODO - Use recursion so that this will continue in a never-ending REPL loop
     inquirer.prompt([
@@ -79,9 +80,14 @@ if (require.main == module){
         purchaseId = results.item_id;
         purchaseQuantity = results.item_quantity;
         checkIfItemIsPresentInSufficientQuantitty(purchaseId, purchaseQuantity);
-
     });
+    
+    
+    
+}
 
-
+if (require.main == module){
+    
+    mainUILoop();
 
 }
