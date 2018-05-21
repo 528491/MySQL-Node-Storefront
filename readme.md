@@ -16,5 +16,5 @@ See below for a series of screenshots demonstrating app functionality. Please be
 prerequisites section are completed before attempting.
 
 - User runs the application by entering the command "node bamazonCustomer.js"
-    (./Screenshots/step_1.png)
+   ![Image of Step 1, Bash Command](./Screenshots/step_1.png)
 - 
